@@ -9,7 +9,8 @@ p {
     color: white;
     text-align: center;
 }
-#embed {
+p.embed {
+    text-align: center;
     background-color: blueviolet;
     color: white;
     text-decoration: none;
