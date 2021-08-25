@@ -3,29 +3,35 @@ body {
     border: 15px solid black;
     margin: 10px;
 }
+
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     color: white;
     text-align: center;
 }
+
 hr {
     border: 2px solid black;
 }
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     color: white;
     text-align: center;
 }
+
 h3 {
     font-size: 40px;
     text-align: center;
 }
+
 .secreto {
     color: rgb(60, 120, 180);
     font-size: 20px;
 }
+
 a.a:link, a.a:visited {
     background-color: tomato;
     color: white;
@@ -35,6 +41,7 @@ a.a:link, a.a:visited {
     margin: 2px;
     border-radius: 10px;
 }
+
 a.a:hover, a.a:active {
     background-color: red;
     color: white;
@@ -44,6 +51,7 @@ a.a:hover, a.a:active {
     margin: 2px;
     border-radius: 10px;
 }
+
 a.b:link, a.b:visited {
     background-color: blueviolet;
     color: white;
@@ -53,6 +61,7 @@ a.b:link, a.b:visited {
     margin: 2px;
     border-radius: 10px;
 }
+
 a.b:hover, a.b:active {
     background-color: blue;
     color: white;
@@ -62,10 +71,17 @@ a.b:hover, a.b:active {
     margin: 2px;
     border-radius: 10px;
 }
+
 a.c:link, a.c:visited {
     color: blue;
     text-decoration: none;
 }
+
 a.c:hover, a.c:active {
     text-decoration: underline;
+}
+
+button {
+    width: 100px;
+    height: 30px;
 }
