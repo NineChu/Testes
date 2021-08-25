@@ -2,7 +2,7 @@ var senha;
 
 function bsenha()
 {
-    senha = prompt("Digite a senha:").toString();
+    senha = document.getElementById("tsenha").value;
 }
 
 var pag = setInterval(pag, 1);
