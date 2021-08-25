@@ -3,11 +3,6 @@ var senha;
 function bsenha()
 {
     senha = document.getElementById("tsenha").value;
-}
-
-var pag = setInterval(pag, 1);
-function pag()
-{
     if(senha == "bondia")
     {
         alert("https://www.youtube.com/channel/UCK0MUByfOTZBLErrDBjy1Gw");
@@ -23,4 +18,20 @@ function pag()
         alert("C acha que eu sou burro ?");
         senha = "";
     }
+    else
+    {
+        alert("Senha incorreta !");
+        senha = "";
+    }
+}
+window.onload = function()
+{
+document.getElementById("tsenha").addEventListener("keyup", function(event)
+{
+    if(event.keyCode === 13)
+    {
+        event.preventDefault;
+        bsenha();
+    }
+});
 }
