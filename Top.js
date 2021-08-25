@@ -16,5 +16,6 @@ function pag()
     else if(senha == "varolant'-'")
     {
         alert("https://ninechu.github.io/butao/")
+        senha = ""
     }
 }
